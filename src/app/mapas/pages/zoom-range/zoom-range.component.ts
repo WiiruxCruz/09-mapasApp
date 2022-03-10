@@ -28,7 +28,7 @@ export class ZoomRangeComponent implements AfterViewInit, OnDestroy {
 
 	mapa!: mapboxgl.Map;
 	zoomLevel: number = 10;
-	center: [ number, number ] = [  -96.1058807755658, 19.140431258623337 ]
+	center: [ number, number ] = [  -96.1058807755658, 19.140431258623337 ];
 
 	constructor() {
 
